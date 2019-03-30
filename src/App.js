@@ -90,7 +90,7 @@ class App extends Component {
   }
 
   evaluate = () => {
-    // Evaluate the equation
+    // Evaluate the equation according to operators used
     this.setState({curr: this.state.input}, ()=> {
       if (this.state.operator === "+") {
         this.setState({
